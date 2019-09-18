@@ -10,3 +10,7 @@ end
 def input_to_index(position)
   board_position = position.to_i - 1
 end
+
+def move(board_array, index, value = "X")
+  board_array[index] = value
+end
